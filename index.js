@@ -213,13 +213,13 @@ console.log(artists[0]["name"]);
 
 //(2) Bio of the third artist (2nd index) in the array 
 
-
+console.log(artists[2]["bio"])
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
-console.log
+console.log(artists[8]["name"])
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
@@ -229,10 +229,16 @@ Use getArtistByIndex to do the following:
 
 Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
-}
 
+function getArtistByIndex(id) {
+
+    let artistName = artists[id]["name"];
+    
+    
+      console.log('the artist at index ' + id + ' is ' + artistName);
+    }
+    getArtistByIndex(0);
+}
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -280,8 +286,14 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(artists) {
+  artists.push(
+    id: 20,
+    "name": Mekhi, 
+    years: 23,
+    genre: Web Design, 
+    nationality: American
+    bio: or use lorem ipsum);
 }
 
 
