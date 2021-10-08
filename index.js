@@ -81,7 +81,7 @@ const artists = [
   },
   {
     "id": 8,
-    "name": "Vincent van Dough",
+    "name": "Vincent van Gogh",
     "years": "1853 - 1890",
     "genre": "Post-Impressionism",
     "nationality": "Dutch",
@@ -209,6 +209,7 @@ Practice accessing data above by console.log-ing following items:
 
 //(1) Name of the first artist (0th index) in the array
 
+console.log(artists[0]["name"]);
 
 //(2) Bio of the third artist (2nd index) in the array 
 
@@ -218,7 +219,7 @@ Practice accessing data above by console.log-ing following items:
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
-
+console.log
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
